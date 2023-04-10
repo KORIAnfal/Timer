@@ -94,5 +94,5 @@ function displayTime()
 
 }
 
-displayTime();
+
 
