@@ -1,0 +1,77 @@
+#bg-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+}
+.content
+ {
+    position: fixed;
+    color: #f1f1f1;
+ }
+.timer_div
+{
+ position: absolute;
+ top: 50%;
+ left:50%;
+ transform: translate(-50%, -50%);
+ 
+}
+.timer_text
+{
+ color: #f1f1f1;
+ font-size: 220px;
+}
+button {
+  display: block;
+  margin-bottom: 10px; 
+}
+.left_div
+{
+ position: absolute; 
+ top: 50%;
+ left:2%;
+ transform: translate(0%, -50%);
+}
+.right_div
+{
+ position: absolute; 
+ top: 50%;
+ right:2%;
+ transform: translate(-50%, -50%);
+}
+
+
+.btn {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 150%;
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(46, 254, 80, 0.5);
+	border-bottom: 1px ;
+	border-top: 1px;
+	border-radius: 30px;
+	padding: 10px;
+	letter-spacing: 1px;
+	color: #ffff;
+	font-weight: 400px;
+	z-index: 1;
+	transition: 0.5s;
+	backdrop-filter: blur(15px);
+}
+
+.btn:hover  {
+  background: rgba(100, 235, 122);
+  color:#000000;
+	
+}
+

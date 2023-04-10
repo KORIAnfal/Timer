@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="chrono.css">
+	<title>Timer Webpage</title>
+	<script src="timer.js"></script>
+</head>
+
+<body>
+
+	<div type="container">
+
+
+		<video autoplay muted loop id="bg-video">
+			<source src="bg.mp4" type="video/mp4">
+		</video>
+
+		<div class="timer_div">
+			<p id="countdown" class="timer_text">05:00</p>
+		</div>
+		<div class="left_div">
+			<button class="btn"  onclick="startTimer()">Start</button>
+		   
+			<button class="btn" onclick="stopTimer()">Stop</button>
+			
+			<button class="btn" onclick="reset()">Reset</button>
+		</div>
+		<div class="right_div">
+			<button class="btn" onclick="add_min()">+</button>
+			<button class="btn" onclick="decrease_min()">-</button>
+		</div>
+		
+	</div>
+
+</body>
+
+</html>
